@@ -1,0 +1,21 @@
+FizzBuzz
+
+a number is "fizz" if it is divisble by 3 or if it has a 3 in it
+a number is "buzz" if it is divisble by 5 or if it has a 5 in it
+if both:  fizzbuzz
+if anything else return the number
+
+test methods have to begin with the test_<method>
+
+your task:
+Write a Class called FizzBuzz with a method called identify
+
+Start by writing the test cases
+# fizz_buzz_test.rb  --> note the naming convention
+
+require "test/unit"
+
+Class FizzBuzzTest < Test::Unit::TestCase
+end
+
+
